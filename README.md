@@ -7,7 +7,7 @@
 
 ## Key Points:
 * __Dark Theme__ Availaible
-* Code Sharing Button Available : Facebook, Whatsapp, Twitter
+* Code Sharing Button Available : *Facebook*, _Whatsapp_, _Twitter_
 * Languages Availailbe : Java, Java8, Python, Python3, C++, C++11, C++14
 * I/P and O/P Consoles
 * Desktop App
