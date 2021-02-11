@@ -3,14 +3,15 @@
 ## Code Editor for Java,Python and C++
 
 ## Snapshot
+![CodeLoop Image](https://github.com/yogeshsherawat/code-loop-v1/blob/main/images/code_loop.PNG)
 
 ## Key Points:
-* Dark Theme Availaible
+* __Dark Theme__ Availaible
 * Code Sharing Button Available : Facebook, Whatsapp, Twitter
 * Languages Availailbe : Java, Java8, Python, Python3, C++, C++11, C++14
 * I/P and O/P Consoles
 * Desktop App
-* API Used: Hackerearth API v4
+* **API Used**: Hackerearth API v4
 
 ### Packages Used
 * Code Share
