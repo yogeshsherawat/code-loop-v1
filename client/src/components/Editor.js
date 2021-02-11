@@ -1,5 +1,4 @@
 import React, { Fragment, useState, useRef } from 'react';
-import axios from 'axios';
 import OutputConsole from './OutputConsole';
 import InputConsole from './InputConsole';
 import ShareButtons from './ShareButtons';
@@ -7,7 +6,7 @@ import LangBtns from './LangBtns';
 import CodeConsole from './CodeConsole';
 
 const Editor = () => {
-    
+
     const [code, setCode] = useState("");
     const [codeOutput, setCodeOutput] = useState({
         status: '',
