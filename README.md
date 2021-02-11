@@ -21,3 +21,5 @@
 * Concurrently
   * For running node and react server together on heroku
 * Rest were essential ones    
+
+> If you gotta do it, then start now
