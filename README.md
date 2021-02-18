@@ -22,4 +22,22 @@
   * For running node and react server together on heroku
 * Rest were essential ones    
 
+## Installation on local machine
+```
+# Clone the repository
+$ git clone https://github.com/yogeshsherawat/code-loop-v1.git
+
+# Change the directory
+$ cd "code-loop-v1"
+
+# Install all the required dependencies
+$ npm install
+
+# Start the application on localhost:3000
+@ npm run dev
+
+# Setup the Environment Variables
+hackerearth_api_secret= client_secret
+```
+
 > If you gotta do it, then start now
