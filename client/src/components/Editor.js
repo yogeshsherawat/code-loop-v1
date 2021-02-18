@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useRef } from 'react';
+import React, { Fragment, useState } from 'react';
 import OutputConsole from './OutputConsole';
 import InputConsole from './InputConsole';
 import ShareButtons from './ShareButtons';

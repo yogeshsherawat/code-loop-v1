@@ -14,7 +14,8 @@ app.post('/compile', async (request, response) => {
         
     
     let Code_Eval_URL = 'https://api.hackerearth.com/v4/partner/code-evaluation/submissions/';
-        let clientSecret = '5ce27249c8c7ee4fe414c322a8aa5f309221677d';
+        let clientSecret = process.env.hackerearth_client_secret;
+            //'5ce27249c8c7ee4fe414c322a8aa5f309221677d';
     
         
 

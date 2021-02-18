@@ -68,6 +68,12 @@ function CodeConsole(props) {
         setCode(e.target.value);
     }
 
+    const handleKeyPress = (e) => {
+        console.log(e.key);
+        if (e.key === 'Enter')
+            console.log('Enter');
+    }
+
     return (<Fragment>
         
         <button
@@ -79,7 +85,9 @@ function CodeConsole(props) {
             ref={code_area}
             className='codeArea mt-3 pt-2 pl-2 '
             onChange={handleChange}
-            value={code} placeholder="Enter Code Here" >
+            value={code}
+            placeholder="Enter Code Here" >
+            onKeyPress = {handleKeyPress}
         </textarea>
         <button
             className='btn btn-primary '
